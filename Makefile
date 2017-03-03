@@ -1,3 +1,21 @@
+#*****************************************************
+#Makefile
+#
+#Author: 	M. Lennartz
+#Revision: 1.0
+#Purpose:
+#The makefile just simplifies the compiling and
+#running process. The use calls are below:
+#
+#make all - will clean the directory of all 
+#executables and then recompile all executable
+#processes
+#
+#make clean - remove all executables
+#
+#make run - will run the run.sh script to run the 
+#p_sem_wait and p_sem_post processes
+#*****************************************************/
 all: clean p_sem_wait p_sem_post p_sem_clean
 
 p_sem_wait:
